@@ -3,3 +3,9 @@ script:
   - './gradlew clean build'
 jdk:
   - oraclejdk8
+notifications:
+  email:
+    recipients:
+      - chiara.varini@studio.unibo.it
+    on_success: never # default: change
+    on_failure: always # default: always
