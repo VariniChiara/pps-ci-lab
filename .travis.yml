@@ -3,3 +3,10 @@ script:
   - './gradlew clean build'
 jdk:
   - oraclejdk8
+notifications:
+  email:
+    recipients:
+      - margherita.pecorelli@studio.unibo.it
+      - margherita.pecorelli92@gmail.com
+    on_success: never
+    on_failure: always
